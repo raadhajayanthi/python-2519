@@ -1,0 +1,144 @@
+x = "Python "
+y = "is "
+z = "awesome"
+
+# output = Python is awesome
+# print(xyz) # NameError: name 'xyz' is not defined
+
+# + (add takes multiple numeric values and add them)
+# + when used with numerics it's called as addition operator
+# + when used with text it's called as concatenation operator
+
+# What is concatenation ? -> Joining multiple Strings
+print(x+y+z) # + as concatenation operator
+
+
+x = 10
+y = 20
+z = 30
+print(x+y+z) # + as addition operator
+
+a = "10"
+b = "10"
+
+# print(x+a) # TypeError: unsupported operand type(s) for +: 'int' and 'str'
+print(a+b)
+
+
+# Multiple Variables
+x,y,z = 10,20,30
+# x,y,z = 10,20,30,40 (LHS == RHS) # ValueError: too many values to unpack (expected 3)
+print(x+y+z)
+
+s1,s2,s3 = "orange","apple","cherry"
+print(s1+s2+s3)
+
+# using concatenation 
+name = "ravi"
+age = 25
+# print("My name is " +name +" and im " +age + "years old")
+# TypeError: can only concatenate str (not "int") to str
+
+print("My name is {name}  and im {age} years old") 
+
+# using interpolation
+print(f"My name is {name}  and im {age} years old") 
+
+# using different values dynamically
+x,y,z = 10,20,30
+age = 25
+print(f"Sum of x,y,z,age: {x+y+z+age}")
+
+# school student info
+student_name = "john"
+student_class = 8
+student_school = "DPS"
+print(f"My name is {student_name} im studying in {student_class} class in {student_school} school")
+
+
+
+# school student info
+student_name = "john"
+student_class = 8
+student_school = "DPS"
+print(f"My name is {student_name} im studying in {student_class} class in {student_school} school")
+
+# Operators 
+
+# Arithmetic Operators
+n1 = 3
+n2 = 2
+print(f"Sum of n1 and n2 is: {n1+n2}")
+print(f"Difference of n1 and n2 is: {n1-n2}")
+print(f"Product of n1 and n2 is: {n1*n2}")
+print(f"Division of n1 and n2 is: {n1/n2}")
+print(f"Modulus of n1 and n2 is: {n1%n2}")
+print(f"floor division of n1 and n2 is: {n1//n2}")
+print(f"exponentiation of n1 and n2 is: {n1**n2}")
+
+# without Compound Assignment Operators
+x = 10
+x = x + 5
+print(x)
+
+# with Compound Assignment Operators
+x = 10
+x += 5 # x = x + 5
+print(x)
+
+x = 10
+x *= 5 # x = x * 5
+print(x)
+
+# Comparison Operators    
+n1 = 3
+n2 = 2
+n3 = 3
+print(n1 == n2)
+print(n1 == n3)
+print(n1 >= n2)
+print(n1 != n2)
+
+# Logical Operators
+x = 7
+y = 5
+a = 15
+b = 9
+
+resultand = x > y and a < b # T and F -> F
+print(resultand)
+
+resultor = x > y or a < b # T or F -> T
+print(resultor)
+
+resultnot = x > y or a < b # T or F -> T
+print(not resultnot)
+
+# membership operators
+a_list = [10,20,30]
+is_present = 10 in a_list
+print(is_present)
+is_present = 100 in a_list
+print(is_present)
+is_present = 100 not in a_list
+print(is_present)
+
+data = "hello"
+is_present = "a" in data
+print(is_present)
+
+n1 = 10
+n2 = 10
+print(id(n1))
+print(id(n2))
+print(n1 is n2)
+print(n1 == n2)
+
+n1 = [10,20,30]
+n2 = [10,20,30]
+print(id(n1))
+print(id(n2))
+print(n1 is n2)
+print(n1 == n2)
+
+print(n1 is not n2)
