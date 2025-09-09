@@ -97,3 +97,5 @@ print(text[:]) # start : end
 print(text[2:5]) # start : stop --> tho
 
 print(text[:4]) # start(0) : stop(4) --> pyth
+
+
