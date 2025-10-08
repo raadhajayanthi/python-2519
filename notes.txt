@@ -1140,3 +1140,44 @@
 
             -> __init__.py (empty content / start up configs)
                 
+
+
+8th Oct 2025
+=============
+
+  -> File Management With Python 
+
+        -> File Operations
+
+            -> CRUD 
+
+                -> CREATE
+                -> READ
+                -> UPDATE 
+                -> DELETE 
+
+        -> Earlier all the above activities we did in non-persistent storage (RAM)
+
+            -> non-persistent storage/data - Temporary 
+
+        -> Now i need the programs to save the data (HDD/SSD)
+
+            -> persistent storage/data - Permanent  
+
+    -> A file can be controlled using open() function with modes 
+
+        -> read - r
+        -> write - w
+        -> append - a 
+
+
+
+    -> File Operations Continued 
+
+    -> To Read we can use read(), readline(), readlines()
+
+    -> To Write i.e we can also create / update using "w" mode 
+
+        -> write mode will overwrite 
+
+    -> To Append i.e ame as write but keeps previous data then write new data using "a" mode                 
