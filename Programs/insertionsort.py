@@ -1,3 +1,7 @@
+#Insert each element into its correct place.
+#Like sorting playing cards in your hand: pick one card and place it where it fits.
+
+
 def insertionsort(list):
     for i in range (1,len(list)):
       k = list[i]

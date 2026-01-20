@@ -1,3 +1,7 @@
+#Compare two items at a time and swap if they are in the wrong order.
+#Like bubbles rising — big values move up step by step while swapping.
+
+
 def sorting_numbers(numbers):
 
     for i in range(len(numbers)):
